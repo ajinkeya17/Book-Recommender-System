@@ -29,3 +29,6 @@ m5   3         5
 Now we need to recommend movie to User 3. Based on ratings for m1,m2,m3 User 2 seems to have similar preferences as User 3 and thus we consider that whatever User 2 likes, User 3 will also like. Thus, since from m4 and m5 which User 3 hasn't watched we see that User 2 has liked m5 and thus we recommend m5 to User 3 as well
 
 ii.) Item to Item based : 
+In this each item/product is assigned a vector of ratings b different users. The recommendation given to a user who likes one product will be it's n closest product vectors. 
+
+Item to Item based is generally the preferred method and is implemented in our project
