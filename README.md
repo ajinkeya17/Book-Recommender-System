@@ -1,6 +1,8 @@
 # Book-Recommender-System
 Building a Book Recommender system using Collaborative Filtering Approach
 
+## Aim : When a user enters a book name to our final prediction interface then it should output 5 recommendations of books most relevant and closely related to the input book.
+
 ## Dataset Used : https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
 
 ## Options for Recommendor Systems : Content based vs Collaborative Filtering based. 
