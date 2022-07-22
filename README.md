@@ -5,11 +5,13 @@ Building a Book Recommender system using Collaborative Filtering Approach
 
 ## Options for Recommendor Systems : Content based vs Collaborative Filtering based. 
 
+### 1.) Content based
 In Content based modelling recommendation is based on similarity between items. A tag is created for each product(movie,book,etc) which describes all it's features relevant for a person's preference towards it (for ex for a movie the tag can be a combo of genre+actors+director+rating). If we know that a user prefers movie A then we can reommend 5 other movies the tags of which have the largest cosine similarity to the tag vector of movie A.
 
+### 2.) Collaborative filtering based
 In Collaborative filtering approach we don't recommend based on similarity between items but rather we make recommendations to users based on how other users have rated the content. Collaborative Filtering is a technique or a method to predict a user’s taste and find the items that a user might prefer on the basis of information collected from various other users having similar tastes or preferences. It takes into consideration the basic fact that if person X and person Y have a certain reaction for some items then they might have the same opinion for other items too.
 
-Types:
+##### Types:
 
 i.) User to User based : In this method we try to find the user who's rating methods are most similar to our target user.
 ex: we have 
