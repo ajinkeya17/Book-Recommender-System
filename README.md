@@ -36,3 +36,5 @@ ii.) Item to Item based :
 In this each item/product is assigned a vector of ratings b different users. The recommendation given to a user who likes one product will be it's n closest product vectors. 
 
 Item to Item based is generally the preferred method and is implemented in our project
+
+Collaborative Filtering suffers from the Cold Start problem since it requires historical data about the user's liking and preferences (ratings) which is diificult to acquire for a new org or product line. Content based filtering doesn't have this problem as it relies on the features/characteristics of the product itself to make recommendations.
