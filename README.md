@@ -13,7 +13,7 @@ Advantages: Works even when a product has no user reviews.
 Disadvantages: Requires descriptive data of all content to recommend, which is time consuming.
 
 ### 2.) Collaborative filtering based
-In Collaborative filtering approach we don't recommend based on similarity between items but rather we make recommendations to users based on how other users have rated the content. Collaborative Filtering is a technique or a method to predict a user’s taste and find the items that a user might prefer on the basis of information collected from various other users having similar tastes or preferences. It takes into consideration the basic fact that if person X and person Y have a certain reaction for some items then they might have the same opinion for other items too.
+The base logic is that if person X and person Y have historically given similar rating/review to items consistently indicating they have similar likings then an item rated highly by X can be recommended to Y and vice versa. In Collaborative filtering approach we don't recommend based on similarity between items but rather we make recommendations to users based on how other users have rated the content. Collaborative Filtering is a technique or a method to predict a user’s taste and find the items that a user might prefer on the basis of information collected from various other users having similar tastes or preferences. 
 
 
 Distance metrics available: https://builtin.com/data-science/recommender-systems
